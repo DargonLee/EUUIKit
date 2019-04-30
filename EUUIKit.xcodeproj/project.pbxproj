@@ -12,6 +12,7 @@
 		18198CA62256124C0036D0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18198CA42256124C0036D0AF /* Main.storyboard */; };
 		18198CA82256124D0036D0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18198CA72256124D0036D0AF /* Assets.xcassets */; };
 		18198CAB2256124D0036D0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18198CA92256124D0036D0AF /* LaunchScreen.storyboard */; };
+		18AAD03522785325003AF5A0 /* EUTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD03422785325003AF5A0 /* EUTextView.swift */; };
 		9BC048495D5EB552B71FB2E3 /* Pods_EUUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB4EFE38766D1AE1450BB08 /* Pods_EUUIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		18198CA72256124D0036D0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18198CAA2256124D0036D0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18198CAC2256124D0036D0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AAD03422785325003AF5A0 /* EUTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUTextView.swift; sourceTree = "<group>"; };
 		8CB4EFE38766D1AE1450BB08 /* Pods_EUUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EUUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4423A6BCBF29F7EDF072DA4 /* Pods-EUUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUUIKit.release.xcconfig"; path = "Target Support Files/Pods-EUUIKit/Pods-EUUIKit.release.xcconfig"; sourceTree = "<group>"; };
 		ECC0BC794BF6D3A507FC75EF /* Pods-EUUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUUIKit.debug.xcconfig"; path = "Target Support Files/Pods-EUUIKit/Pods-EUUIKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +48,6 @@
 				ECC0BC794BF6D3A507FC75EF /* Pods-EUUIKit.debug.xcconfig */,
 				E4423A6BCBF29F7EDF072DA4 /* Pods-EUUIKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -74,6 +75,8 @@
 				18198CA02256124C0036D0AF /* AppDelegate.swift */,
 				18198CA22256124C0036D0AF /* ViewController.swift */,
 				18198CA42256124C0036D0AF /* Main.storyboard */,
+				18AAD03322785301003AF5A0 /* TextField */,
+				18AAD032227852F3003AF5A0 /* TextView */,
 				18198CB2225612620036D0AF /* Supporting Files */,
 			);
 			path = EUUIKit;
@@ -87,6 +90,21 @@
 				18198CAC2256124D0036D0AF /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AAD032227852F3003AF5A0 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				18AAD03422785325003AF5A0 /* EUTextView.swift */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		18AAD03322785301003AF5A0 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 		6EA2CFE3B8DB4173C8290E82 /* Frameworks */ = {
@@ -217,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AAD03522785325003AF5A0 /* EUTextView.swift in Sources */,
 				18198CA32256124C0036D0AF /* ViewController.swift in Sources */,
 				18198CA12256124C0036D0AF /* AppDelegate.swift in Sources */,
 			);
