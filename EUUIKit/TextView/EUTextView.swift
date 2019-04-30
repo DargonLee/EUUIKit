@@ -17,7 +17,7 @@ class EUTextView: UITextView {
             }
         }
     }
-    @IBInspectable var placeholderColor: UIColor = .white {
+    @IBInspectable var placeholderColor: UIColor = .clear {
         didSet {
             self.textColor = placeholderColor
         }
