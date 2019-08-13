@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wAT-WZ-1f7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="W52-El-NMq">
+            <objects>
+                <navigationController id="wAT-WZ-1f7" customClass="EUNavigationSysController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="food-strawberry" id="d5v-dT-AIA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UX7-pm-F9T">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ESy-Ji-eyK" kind="relationship" relationship="rootViewController" id="Giu-O8-yhO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hGb-q4-NM9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1425"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="YZ7-Y2-7KU">
+            <objects>
+                <viewController id="ESy-Ji-eyK" customClass="EUAboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PWE-ZH-R88">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="BFd-TU-s52">
+                                <rect key="frame" x="154.5" y="139" width="66" height="71"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E U U I" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8e-mz-VfS">
+                                <rect key="frame" x="149" y="218" width="77" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本 0.1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9CF-1j-gt4">
+                                <rect key="frame" x="154" y="270" width="67" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9CF-1j-gt4" firstAttribute="top" secondItem="k8e-mz-VfS" secondAttribute="bottom" constant="20" id="8tg-lQ-dRI"/>
+                            <constraint firstItem="k8e-mz-VfS" firstAttribute="centerX" secondItem="BFd-TU-s52" secondAttribute="centerX" id="WYq-Yw-Wmc"/>
+                            <constraint firstItem="BFd-TU-s52" firstAttribute="centerX" secondItem="PWE-ZH-R88" secondAttribute="centerX" id="YiK-8a-0uE"/>
+                            <constraint firstItem="k8e-mz-VfS" firstAttribute="bottom" secondItem="BFd-TU-s52" secondAttribute="bottom" constant="40" id="ep3-zX-5IA"/>
+                            <constraint firstItem="BFd-TU-s52" firstAttribute="top" secondItem="lRX-8m-63S" secondAttribute="top" constant="75" id="gxD-r6-TQc"/>
+                            <constraint firstItem="9CF-1j-gt4" firstAttribute="centerX" secondItem="k8e-mz-VfS" secondAttribute="centerX" id="hdk-Xb-Gxh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lRX-8m-63S"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lgv-2o-axX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQC-0D-MQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1282" y="1424"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="food-strawberry" width="24" height="24"/>
+        <image name="logo" width="66" height="71"/>
+    </resources>
+</document>

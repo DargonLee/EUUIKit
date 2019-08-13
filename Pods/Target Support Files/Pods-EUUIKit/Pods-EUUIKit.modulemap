@@ -1,6 +1,0 @@
-framework module Pods_EUUIKit {
-  umbrella header "Pods-EUUIKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
