@@ -162,6 +162,9 @@
 		18EF79E0229E5CA500E92E1E /* EUScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF79DE229E5CA500E92E1E /* EUScanQRCodeViewController.m */; };
 		18EF79E3229E60D700E92E1E /* QRCodeScanTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EF79E1229E60D700E92E1E /* QRCodeScanTool.h */; };
 		18EF79E4229E60D700E92E1E /* QRCodeScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF79E2229E60D700E92E1E /* QRCodeScanTool.m */; };
+		DCBB5A3B236DB136004BF228 /* SSNetworkInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A38236DB135004BF228 /* SSNetworkInfo.h */; };
+		DCBB5A3C236DB136004BF228 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A39236DB135004BF228 /* route.h */; };
+		DCBB5A3D236DB136004BF228 /* SSNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A3A236DB136004BF228 /* SSNetworkInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -322,6 +325,9 @@
 		18EF79DE229E5CA500E92E1E /* EUScanQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUScanQRCodeViewController.m; sourceTree = "<group>"; };
 		18EF79E1229E60D700E92E1E /* QRCodeScanTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeScanTool.h; sourceTree = "<group>"; };
 		18EF79E2229E60D700E92E1E /* QRCodeScanTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanTool.m; sourceTree = "<group>"; };
+		DCBB5A38236DB135004BF228 /* SSNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetworkInfo.h; sourceTree = "<group>"; };
+		DCBB5A39236DB135004BF228 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		DCBB5A3A236DB136004BF228 /* SSNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNetworkInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -643,6 +649,7 @@
 				189B3E122292A80000B4C35F /* AESTool.m */,
 				189B3E3922954A1900B4C35F /* Base64Tool.h */,
 				189B3E3A22954A1900B4C35F /* Base64Tool.m */,
+				DCBB5A3E236DB13D004BF228 /* NetworkInfo */,
 				18EF79D3229D07E000E92E1E /* QRCode */,
 				189B3E3D22954D0200B4C35F /* FileManger */,
 			);
@@ -818,6 +825,16 @@
 			path = QRCode;
 			sourceTree = "<group>";
 		};
+		DCBB5A3E236DB13D004BF228 /* NetworkInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB5A39236DB135004BF228 /* route.h */,
+				DCBB5A38236DB135004BF228 /* SSNetworkInfo.h */,
+				DCBB5A3A236DB136004BF228 /* SSNetworkInfo.m */,
+			);
+			path = NetworkInfo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -888,6 +905,7 @@
 				18B4183D2297FAAC00E6654D /* EUModelTransitionManger.h in Headers */,
 				18B418072296AACF00E6654D /* EUOverlayPresentationController.h in Headers */,
 				18EF79DF229E5CA500E92E1E /* EUScanQRCodeViewController.h in Headers */,
+				DCBB5A3B236DB136004BF228 /* SSNetworkInfo.h in Headers */,
 				18EF79D6229D080B00E92E1E /* QRCodeTool.h in Headers */,
 				1819C92822A4B2C700EBE1E8 /* EULockView.h in Headers */,
 				18B418112296AE7100E6654D /* EUPopTransitionAnimation.h in Headers */,
@@ -899,6 +917,7 @@
 				1868CE96228E816800976AE0 /* encrypt.h in Headers */,
 				1868CE94228E816800976AE0 /* keygen.h in Headers */,
 				1868CEA7228E816800976AE0 /* md5_locl.h in Headers */,
+				DCBB5A3C236DB136004BF228 /* route.h in Headers */,
 				1868CEA1228E816800976AE0 /* opensslconf.h in Headers */,
 				1868CEAB228E816800976AE0 /* aes_locl.h in Headers */,
 				1868CE92228E816800976AE0 /* contants.h in Headers */,
@@ -1023,6 +1042,7 @@
 				189B3E5D22955D0100B4C35F /* EUFeatureItem.m in Sources */,
 				189B090422A12F8B004DE72D /* MASConstraint.m in Sources */,
 				189B3E6122955D3600B4C35F /* UIView+EUFeatureGuideView.m in Sources */,
+				DCBB5A3D236DB136004BF228 /* SSNetworkInfo.m in Sources */,
 				1868CE6D228E815500976AE0 /* MBProgressHUD.m in Sources */,
 				1868CEA8228E816800976AE0 /* md5_one.c in Sources */,
 				18A7A9B6228D729D0009F4EC /* EUAlertView.m in Sources */,
