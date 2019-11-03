@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0A3AAC97B96DF6666685DFCF /* Pods_EUUIKit_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29607C98A464A7D2370C56CA /* Pods_EUUIKit_Demo.framework */; };
-		1802ACC6229F99570063BC98 /* EUUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF79DB229D15DC00E92E1E /* EUUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1819C92F22A4F7D500EBE1E8 /* EUGesLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819C92E22A4F7D500EBE1E8 /* EUGesLockViewController.m */; };
 		184AD83F228AE7BE0069E65D /* EUUIFillButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184AD83E228AE7BE0069E65D /* EUUIFillButtonViewController.m */; };
 		1868CEAF228E91C600976AE0 /* EUHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868CEAE228E91C600976AE0 /* EUHUDViewController.m */; };
@@ -32,7 +31,6 @@
 		18B4180B2296AB9400E6654D /* EUModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4180A2296AB9400E6654D /* EUModelViewController.m */; };
 		18B4180E2296ACD100E6654D /* EUModelOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4180D2296ACD100E6654D /* EUModelOneViewController.m */; };
 		18EF79DA229D11C400E92E1E /* EUQRCodeGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF79D9229D11C400E92E1E /* EUQRCodeGeneratorViewController.m */; };
-		18EF79DC229D15DC00E92E1E /* EUUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF79DB229D15DC00E92E1E /* EUUIKit.framework */; };
 		18FB1CAE22856BFC00AB1E2B /* BaseUIKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FB1CAD22856BFC00AB1E2B /* BaseUIKit.storyboard */; };
 		18FB1CB022856C2100AB1E2B /* Components.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FB1CAF22856C2100AB1E2B /* Components.storyboard */; };
 		18FB1CB222856C3A00AB1E2B /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FB1CB122856C3A00AB1E2B /* About.storyboard */; };
@@ -42,16 +40,18 @@
 		18FB1CBF2285750100AB1E2B /* EUTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB1CBE2285750100AB1E2B /* EUTextFieldViewController.m */; };
 		18FB1CCD22858C5400AB1E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FB1CCC22858C5300AB1E2B /* Assets.xcassets */; };
 		2936ED25143B9BB2CEABBB89 /* Pods_EUUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E383FEA68CA358120BE031C /* Pods_EUUIKit.framework */; };
+		DCBB5A5A236ED9CD004BF228 /* EUUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF79AA229B987700E92E1E /* EUUIKit.framework */; };
+		DCBB5A5B236ED9CD004BF228 /* EUUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF79AA229B987700E92E1E /* EUUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1802ACC7229F99570063BC98 /* Embed Frameworks */ = {
+		DCBB5A5C236ED9CD004BF228 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1802ACC6229F99570063BC98 /* EUUIKit.framework in Embed Frameworks */,
+				DCBB5A5B236ED9CD004BF228 /* EUUIKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,7 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EF79DC229D15DC00E92E1E /* EUUIKit.framework in Frameworks */,
+				DCBB5A5A236ED9CD004BF228 /* EUUIKit.framework in Frameworks */,
 				2936ED25143B9BB2CEABBB89 /* Pods_EUUIKit.framework in Frameworks */,
 				0A3AAC97B96DF6666685DFCF /* Pods_EUUIKit_Demo.framework in Frameworks */,
 			);
@@ -314,7 +314,7 @@
 				189DCD5D2284426500799A82 /* Sources */,
 				189DCD5E2284426500799A82 /* Frameworks */,
 				189DCD5F2284426500799A82 /* Resources */,
-				1802ACC7229F99570063BC98 /* Embed Frameworks */,
+				DCBB5A5C236ED9CD004BF228 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

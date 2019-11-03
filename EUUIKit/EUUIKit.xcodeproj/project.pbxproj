@@ -172,7 +172,6 @@
 		DCBB5A52236ECE65004BF228 /* EUQuickLookPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A50236ECE65004BF228 /* EUQuickLookPreviewController.m */; };
 		DCBB5A57236ED145004BF228 /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A54236ED145004BF228 /* UIAlertController+Blocks.m */; };
 		DCBB5A58236ED145004BF228 /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A55236ED145004BF228 /* UIAlertController+Blocks.h */; };
-		DCBB5A59236ED145004BF228 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DCBB5A56236ED145004BF228 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -344,7 +343,6 @@
 		DCBB5A50236ECE65004BF228 /* EUQuickLookPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUQuickLookPreviewController.m; sourceTree = "<group>"; };
 		DCBB5A54236ED145004BF228 /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
 		DCBB5A55236ED145004BF228 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
-		DCBB5A56236ED145004BF228 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -880,7 +878,6 @@
 			children = (
 				DCBB5A54236ED145004BF228 /* UIAlertController+Blocks.m */,
 				DCBB5A55236ED145004BF228 /* UIAlertController+Blocks.h */,
-				DCBB5A56236ED145004BF228 /* .gitignore */,
 			);
 			path = "UIAlertController-Blocks";
 			sourceTree = "<group>";
@@ -1043,7 +1040,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCBB5A59236ED145004BF228 /* .gitignore in Resources */,
 				1868CE9E228E816800976AE0 /* mk.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

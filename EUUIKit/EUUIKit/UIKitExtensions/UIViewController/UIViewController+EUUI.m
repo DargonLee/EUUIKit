@@ -208,6 +208,12 @@ static EUEmptyView * instance_enptyView;
 }
 
 
+@end
+
+
+@implementation UIViewController (Alert)
+
+
 - (void)showAlert:(UIViewController*)viewController title:(NSString*)title message:(NSString*)message okBtnTitle:(NSString*)okBtnTitle block:(UIAlertControllerCompletionBlock)block
 {
     [UIAlertController showAlertInViewController:viewController
