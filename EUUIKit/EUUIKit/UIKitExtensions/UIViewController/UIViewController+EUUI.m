@@ -169,4 +169,64 @@ static EUEmptyView * instance_enptyView;
         instance_enptyView = nil;
     });
 }
+
+
+- (UIViewController*)findViewController
+{
+    return [self getCurrentViewControllerWithViewController:[self getCurrentWindow].rootViewController];
+}
+// 获取当前Window
+- (UIWindow *)getCurrentWindow
+{
+    return [UIApplication sharedApplication].keyWindow;
+}
+- (UIViewController *)getCurrentViewControllerWithViewController:(UIViewController *)viewController
+{
+    UIViewController *currentVC = viewController;
+    BOOL flag = NO;
+    if ([currentVC isKindOfClass:[UITabBarController class]])
+    {
+        flag = YES;
+        currentVC = [(UITabBarController *)currentVC selectedViewController];
+    }
+    else if ([currentVC isKindOfClass:[UINavigationController class]])
+    {
+        flag = YES;
+        currentVC = [(UINavigationController *)currentVC visibleViewController];
+    }
+    else if (currentVC.presentedViewController)
+    {
+        flag = YES;
+        currentVC = currentVC.presentedViewController;
+    }
+    if (flag)
+    {
+        return [self getCurrentViewControllerWithViewController:currentVC];
+    }
+    
+    return currentVC;
+}
+
+
+- (void)showAlert:(UIViewController*)viewController title:(NSString*)title message:(NSString*)message okBtnTitle:(NSString*)okBtnTitle block:(UIAlertControllerCompletionBlock)block
+{
+    [UIAlertController showAlertInViewController:viewController
+                                       withTitle:title
+                                         message:message
+                               cancelButtonTitle:okBtnTitle
+                          destructiveButtonTitle:nil
+                               otherButtonTitles:nil
+                                        tapBlock:block];
+}
+- (void)showConfim:(UIViewController*)viewController title:(NSString*)title message:(NSString*)message okBtnTitle:(NSString*)okBtnTitle cancelBtnTitle:(NSString*)cancelBtnTitle block:(UIAlertControllerCompletionBlock)block
+{
+    [UIAlertController showAlertInViewController:viewController
+                                       withTitle:title
+                                         message:message
+                               cancelButtonTitle:cancelBtnTitle
+                          destructiveButtonTitle:nil
+                               otherButtonTitles:@[okBtnTitle]
+                                        tapBlock:block];
+}
+
 @end

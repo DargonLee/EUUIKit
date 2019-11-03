@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIAlertController+Blocks.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -123,6 +123,18 @@ NS_ASSUME_NONNULL_BEGIN
  隐藏空页面
  */
 - (void)hideEmptyView;
+
+//找最上层的ViewController
+- (UIViewController*)findViewController;
+//打开文件
+- (void)openFile:(NSString*)filePath;
+//打开文件
+- (void)openFile:(NSString*)filePath title:(NSString*)title;
+
+//显示alert
+- (void)showAlert:(UIViewController*)viewController title:(NSString*)title message:(NSString*)message okBtnTitle:(NSString*)okBtnTitle block:(UIAlertControllerCompletionBlock)block;
+
+- (void)showConfim:(UIViewController*)viewController title:(NSString*)title message:(NSString*)message okBtnTitle:(NSString*)okBtnTitle cancelBtnTitle:(NSString*)cancelBtnTitle block:(UIAlertControllerCompletionBlock)block;
 
 @end
 

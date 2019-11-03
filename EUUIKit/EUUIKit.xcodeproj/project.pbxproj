@@ -165,6 +165,14 @@
 		DCBB5A3B236DB136004BF228 /* SSNetworkInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A38236DB135004BF228 /* SSNetworkInfo.h */; };
 		DCBB5A3C236DB136004BF228 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A39236DB135004BF228 /* route.h */; };
 		DCBB5A3D236DB136004BF228 /* SSNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A3A236DB136004BF228 /* SSNetworkInfo.m */; };
+		DCBB5A41236ECBD4004BF228 /* EUCommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A3F236ECBD3004BF228 /* EUCommonTableViewCell.m */; };
+		DCBB5A42236ECBD4004BF228 /* EUCommonTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A40236ECBD4004BF228 /* EUCommonTableViewCell.h */; };
+		DCBB5A49236ECCA6004BF228 /* EUViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A48236ECCA6004BF228 /* EUViewController.h */; };
+		DCBB5A51236ECE65004BF228 /* EUQuickLookPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A4F236ECE65004BF228 /* EUQuickLookPreviewController.h */; };
+		DCBB5A52236ECE65004BF228 /* EUQuickLookPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A50236ECE65004BF228 /* EUQuickLookPreviewController.m */; };
+		DCBB5A57236ED145004BF228 /* UIAlertController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A54236ED145004BF228 /* UIAlertController+Blocks.m */; };
+		DCBB5A58236ED145004BF228 /* UIAlertController+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A55236ED145004BF228 /* UIAlertController+Blocks.h */; };
+		DCBB5A59236ED145004BF228 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DCBB5A56236ED145004BF228 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -328,6 +336,15 @@
 		DCBB5A38236DB135004BF228 /* SSNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetworkInfo.h; sourceTree = "<group>"; };
 		DCBB5A39236DB135004BF228 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		DCBB5A3A236DB136004BF228 /* SSNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNetworkInfo.m; sourceTree = "<group>"; };
+		DCBB5A3F236ECBD3004BF228 /* EUCommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUCommonTableViewCell.m; sourceTree = "<group>"; };
+		DCBB5A40236ECBD4004BF228 /* EUCommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUCommonTableViewCell.h; sourceTree = "<group>"; };
+		DCBB5A45236ECC6D004BF228 /* EUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUViewController.m; sourceTree = "<group>"; };
+		DCBB5A48236ECCA6004BF228 /* EUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUViewController.h; sourceTree = "<group>"; };
+		DCBB5A4F236ECE65004BF228 /* EUQuickLookPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUQuickLookPreviewController.h; sourceTree = "<group>"; };
+		DCBB5A50236ECE65004BF228 /* EUQuickLookPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUQuickLookPreviewController.m; sourceTree = "<group>"; };
+		DCBB5A54236ED145004BF228 /* UIAlertController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blocks.m"; sourceTree = "<group>"; };
+		DCBB5A55236ED145004BF228 /* UIAlertController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blocks.h"; sourceTree = "<group>"; };
+		DCBB5A56236ED145004BF228 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +361,7 @@
 		1868CE69228E80A000976AE0 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				DCBB5A53236ED145004BF228 /* UIAlertController-Blocks */,
 				189B08D422A12F8B004DE72D /* Masonry */,
 				1868CE6F228E816800976AE0 /* AES */,
 				1868CE6A228E815500976AE0 /* MBProgressHUD */,
@@ -491,6 +509,8 @@
 		1875394B22896AEB00204312 /* EUUIMain */ = {
 			isa = PBXGroup;
 			children = (
+				DCBB5A4E236ECE2C004BF228 /* QuickLookVC */,
+				DCBB5A43236ECC51004BF228 /* BaseVC */,
 				189B3E0B2292A35800B4C35F /* TabBar */,
 				1875394C22896AEB00204312 /* NavigationFull */,
 				1875395122896AEB00204312 /* NavigationSystem */,
@@ -533,6 +553,8 @@
 		1875395A22896AEB00204312 /* EUUIBase */ = {
 			isa = PBXGroup;
 			children = (
+				DCBB5A40236ECBD4004BF228 /* EUCommonTableViewCell.h */,
+				DCBB5A3F236ECBD3004BF228 /* EUCommonTableViewCell.m */,
 				18A7A9B5228D729D0009F4EC /* EUAlertView.h */,
 				18A7A9B4228D729D0009F4EC /* EUAlertView.m */,
 				1875395D22896AEB00204312 /* EUTextView.h */,
@@ -835,6 +857,34 @@
 			path = NetworkInfo;
 			sourceTree = "<group>";
 		};
+		DCBB5A43236ECC51004BF228 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB5A48236ECCA6004BF228 /* EUViewController.h */,
+				DCBB5A45236ECC6D004BF228 /* EUViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		DCBB5A4E236ECE2C004BF228 /* QuickLookVC */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB5A4F236ECE65004BF228 /* EUQuickLookPreviewController.h */,
+				DCBB5A50236ECE65004BF228 /* EUQuickLookPreviewController.m */,
+			);
+			path = QuickLookVC;
+			sourceTree = "<group>";
+		};
+		DCBB5A53236ED145004BF228 /* UIAlertController-Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB5A54236ED145004BF228 /* UIAlertController+Blocks.m */,
+				DCBB5A55236ED145004BF228 /* UIAlertController+Blocks.h */,
+				DCBB5A56236ED145004BF228 /* .gitignore */,
+			);
+			path = "UIAlertController-Blocks";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -853,6 +903,7 @@
 				1875396D22896AEB00204312 /* EUNavigationController.h in Headers */,
 				1875394022896ACF00204312 /* EUUIKit.h in Headers */,
 				1875396822896AEB00204312 /* UIView+EUUI.h in Headers */,
+				DCBB5A42236ECBD4004BF228 /* EUCommonTableViewCell.h in Headers */,
 				1875396922896AEB00204312 /* NSMutableParagraphStyle+EUUI.h in Headers */,
 				1875398F228AAEA900204312 /* EUUIButton.h in Headers */,
 				18753989228AA3C700204312 /* UIButton+EUUI.h in Headers */,
@@ -886,6 +937,7 @@
 				189B08F222A12F8B004DE72D /* MASLayoutConstraint.h in Headers */,
 				189B090322A12F8B004DE72D /* Masonry.h in Headers */,
 				189B08FC22A12F8B004DE72D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				DCBB5A58236ED145004BF228 /* UIAlertController+Blocks.h in Headers */,
 				189B08F622A12F8B004DE72D /* NSArray+MASAdditions.h in Headers */,
 				189B08F722A12F8B004DE72D /* MASUtilities.h in Headers */,
 				189B08FA22A12F8B004DE72D /* MASViewConstraint.h in Headers */,
@@ -899,6 +951,7 @@
 				189B08F822A12F8B004DE72D /* MASViewAttribute.h in Headers */,
 				1868CE6E228E815500976AE0 /* MBProgressHUD.h in Headers */,
 				189B3E6022955D3600B4C35F /* UIView+EUFeatureGuideView.h in Headers */,
+				DCBB5A49236ECCA6004BF228 /* EUViewController.h in Headers */,
 				189B3E5C22955D0100B4C35F /* EUFeatureItem.h in Headers */,
 				18B41801229698FD00E6654D /* UIBarButtonItem+EUUI.h in Headers */,
 				189B3E282294212800B4C35F /* UILabel+EUUI.h in Headers */,
@@ -925,6 +978,7 @@
 				1868CE95228E816800976AE0 /* log.h in Headers */,
 				1868CEA9228E816800976AE0 /* modes.h in Headers */,
 				1868CE98228E816800976AE0 /* zutil.h in Headers */,
+				DCBB5A51236ECE65004BF228 /* EUQuickLookPreviewController.h in Headers */,
 				1868CE9F228E816800976AE0 /* AESCrypt.h in Headers */,
 				1868CEA6228E816800976AE0 /* aes.h in Headers */,
 				1868CE9C228E816800976AE0 /* Checksum.h in Headers */,
@@ -989,6 +1043,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCBB5A59236ED145004BF228 /* .gitignore in Resources */,
 				1868CE9E228E816800976AE0 /* mk.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1009,6 +1064,7 @@
 				18B418082296AACF00E6654D /* EUOverlayPresentationController.m in Sources */,
 				189B08F022A12F8B004DE72D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				189B090122A12F8B004DE72D /* View+MASAdditions.m in Sources */,
+				DCBB5A52236ECE65004BF228 /* EUQuickLookPreviewController.m in Sources */,
 				1875396722896AEB00204312 /* NSMutableParagraphStyle+EUUI.m in Sources */,
 				1875397022896AEB00204312 /* EUHelper.m in Sources */,
 				189B3E2D22952C2B00B4C35F /* UIImageView+EUUI.m in Sources */,
@@ -1052,6 +1108,7 @@
 				189D5825228BE736008E5413 /* EUCircleProgress.m in Sources */,
 				1868CEA5228E816800976AE0 /* aes_cfb.c in Sources */,
 				18B41802229698FD00E6654D /* UIBarButtonItem+EUUI.m in Sources */,
+				DCBB5A41236ECBD4004BF228 /* EUCommonTableViewCell.m in Sources */,
 				189B3E4522954DF900B4C35F /* NSFileManager+EUPath.m in Sources */,
 				18B417C6229675C400E6654D /* NSDate+EUFD.m in Sources */,
 				189B3E292294212800B4C35F /* UILabel+EUUI.m in Sources */,
@@ -1063,6 +1120,7 @@
 				1875396622896AEB00204312 /* UIView+EUUI.m in Sources */,
 				18DBCBDE228EBE1D00CA53EF /* EULoadingView.m in Sources */,
 				18EF79E4229E60D700E92E1E /* QRCodeScanTool.m in Sources */,
+				DCBB5A57236ED145004BF228 /* UIAlertController+Blocks.m in Sources */,
 				189B3E53229555CC00B4C35F /* UITextField+EUUI.m in Sources */,
 				189B3E382295362A00B4C35F /* UIImage+EUUI.m in Sources */,
 				189B3E0F2292A39400B4C35F /* EUTabBarController.m in Sources */,
