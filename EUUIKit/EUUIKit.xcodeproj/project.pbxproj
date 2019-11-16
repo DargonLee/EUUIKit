@@ -208,6 +208,8 @@
 		DCBB5AA523730EC8004BF228 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A8123730EC8004BF228 /* AFSecurityPolicy.m */; };
 		DCBB5AA623730EC8004BF228 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A8223730EC8004BF228 /* AFCompatibilityMacros.h */; };
 		DCBB5AA723730EC8004BF228 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A8323730EC8004BF228 /* AFHTTPSessionManager.h */; };
+		DCBB5AB0238013B6004BF228 /* EUProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5AAE238013B6004BF228 /* EUProxy.h */; };
+		DCBB5AB1238013B6004BF228 /* EUProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5AAF238013B6004BF228 /* EUProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -415,6 +417,8 @@
 		DCBB5A8123730EC8004BF228 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
 		DCBB5A8223730EC8004BF228 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		DCBB5A8323730EC8004BF228 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		DCBB5AAE238013B6004BF228 /* EUProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUProxy.h; sourceTree = "<group>"; };
+		DCBB5AAF238013B6004BF228 /* EUProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -617,6 +621,8 @@
 				1875395622896AEB00204312 /* EUUIConfigurationMacros.h */,
 				1875395722896AEB00204312 /* EUUICommonDefines.h */,
 				1875395822896AEB00204312 /* EUUICore.h */,
+				DCBB5AAE238013B6004BF228 /* EUProxy.h */,
+				DCBB5AAF238013B6004BF228 /* EUProxy.m */,
 			);
 			path = EUUICore;
 			sourceTree = "<group>";
@@ -1067,6 +1073,7 @@
 				189D583C228C1934008E5413 /* EUNormalProgress.h in Headers */,
 				18A7A9B7228D729D0009F4EC /* EUAlertView.h in Headers */,
 				189B3E212293E35F00B4C35F /* EUEmptyView.h in Headers */,
+				DCBB5AB0238013B6004BF228 /* EUProxy.h in Headers */,
 				1875396C22896AEB00204312 /* EUNavigationAnimation.h in Headers */,
 				18B417CE22967A2700E6654D /* UINavigationBar+EUUI.h in Headers */,
 				18B417C5229675C400E6654D /* NSDate+EUFD.h in Headers */,
@@ -1267,6 +1274,7 @@
 				189D5825228BE736008E5413 /* EUCircleProgress.m in Sources */,
 				1868CEA5228E816800976AE0 /* aes_cfb.c in Sources */,
 				18B41802229698FD00E6654D /* UIBarButtonItem+EUUI.m in Sources */,
+				DCBB5AB1238013B6004BF228 /* EUProxy.m in Sources */,
 				DCBB5A41236ECBD4004BF228 /* EUCommonTableViewCell.m in Sources */,
 				189B3E4522954DF900B4C35F /* NSFileManager+EUPath.m in Sources */,
 				18B417C6229675C400E6654D /* NSDate+EUFD.m in Sources */,
