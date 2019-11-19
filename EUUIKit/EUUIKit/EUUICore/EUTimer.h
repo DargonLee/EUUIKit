@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface EUTimer : NSObject
 
-// 开启一个定时器
 + (NSString *)exexTask:(void(^)(void))task
            start:(NSTimeInterval)start
         interval:(NSTimeInterval)interval
