@@ -210,6 +210,8 @@
 		DCBB5AA723730EC8004BF228 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A8323730EC8004BF228 /* AFHTTPSessionManager.h */; };
 		DCBB5AB0238013B6004BF228 /* EUProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5AAE238013B6004BF228 /* EUProxy.h */; };
 		DCBB5AB1238013B6004BF228 /* EUProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5AAF238013B6004BF228 /* EUProxy.m */; };
+		DCBB5AB423815FA1004BF228 /* EUTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5AB223815FA1004BF228 /* EUTimer.h */; };
+		DCBB5AB523815FA1004BF228 /* EUTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5AB323815FA1004BF228 /* EUTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -419,6 +421,8 @@
 		DCBB5A8323730EC8004BF228 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		DCBB5AAE238013B6004BF228 /* EUProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUProxy.h; sourceTree = "<group>"; };
 		DCBB5AAF238013B6004BF228 /* EUProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUProxy.m; sourceTree = "<group>"; };
+		DCBB5AB223815FA1004BF228 /* EUTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUTimer.h; sourceTree = "<group>"; };
+		DCBB5AB323815FA1004BF228 /* EUTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -623,6 +627,8 @@
 				1875395822896AEB00204312 /* EUUICore.h */,
 				DCBB5AAE238013B6004BF228 /* EUProxy.h */,
 				DCBB5AAF238013B6004BF228 /* EUProxy.m */,
+				DCBB5AB223815FA1004BF228 /* EUTimer.h */,
+				DCBB5AB323815FA1004BF228 /* EUTimer.m */,
 			);
 			path = EUUICore;
 			sourceTree = "<group>";
@@ -1101,6 +1107,7 @@
 				DCBB5A49236ECCA6004BF228 /* EUViewController.h in Headers */,
 				DCBB5A9D23730EC8004BF228 /* AFURLRequestSerialization.h in Headers */,
 				189B3E5C22955D0100B4C35F /* EUFeatureItem.h in Headers */,
+				DCBB5AB423815FA1004BF228 /* EUTimer.h in Headers */,
 				DCBB5A8723730EC8004BF228 /* UIButton+AFNetworking.h in Headers */,
 				18B41801229698FD00E6654D /* UIBarButtonItem+EUUI.h in Headers */,
 				189B3E282294212800B4C35F /* UILabel+EUUI.h in Headers */,
@@ -1248,6 +1255,7 @@
 				DCBB5A8623730EC8004BF228 /* UIProgressView+AFNetworking.m in Sources */,
 				1868CEAA228E816800976AE0 /* md5_dgst.c in Sources */,
 				189B08F922A12F8B004DE72D /* ViewController+MASAdditions.m in Sources */,
+				DCBB5AB523815FA1004BF228 /* EUTimer.m in Sources */,
 				1875397B22896AEB00204312 /* NSString+EUFD.m in Sources */,
 				189D583D228C1934008E5413 /* EUNormalProgress.m in Sources */,
 				1868CE97228E816800976AE0 /* keygen.cpp in Sources */,
