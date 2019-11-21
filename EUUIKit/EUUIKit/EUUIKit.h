@@ -113,5 +113,7 @@ FOUNDATION_EXPORT const unsigned char EUUIKitVersionString[];
 #import <EUUIKit/QRCodeTool.h>
 #import <EUUIKit/EUScanQRCodeViewController.h>
 #import <EUUIKit/EULockView.h>
+#import <EUUIKit/EUTimer.h>
+#import <EUUIKit/EUProxy.h>
 
 
