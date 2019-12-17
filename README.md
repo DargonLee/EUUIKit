@@ -115,5 +115,13 @@
  */
 - (NSString*)someMethodByStr:(NSString*)value;
 
+typedef NS_ENUM (NSUInteger, MessageSendStrategy)
+{
+ MessageSendStrategyText = 0,
+ MessageSendStrategyImage = 1,
+ MessageSendStrategyVoice = 2,
+ MessageSendStrategyVideo = 3
+}
+
 ```
 
