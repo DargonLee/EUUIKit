@@ -1,6 +1,6 @@
 # EUUIKit
 一些iOS开发常用UI组件
-```
+```Objective-C
 
 #import "TestViewController.h"
 
