@@ -69,7 +69,6 @@
 
 @end
 
-```
 /// 简要描述.
 /** 简要描述.
  *
@@ -115,3 +114,6 @@
  * @bug 缺陷: appledoc中显示为黄色背景, Doxygen中显示为绿色竖条.
  */
 - (NSString*)someMethodByStr:(NSString*)value;
+
+```
+
