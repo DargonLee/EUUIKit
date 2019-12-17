@@ -123,5 +123,14 @@ typedef NS_ENUM (NSUInteger, MessageSendStrategy)
  MessageSendStrategyVideo = 3
 }
 
+Raw Data:
+ timestamp:1234567
+FatModel:
+ @property (nonatomic, assign) CGFloat timestamp;
+ - (NSString *)ymdDateString; // 2015-04-20 15:16
+ - (NSString *)gapString; // 3分钟前、1小时前、一天前、2015-3-13 12:34
+Controller:
+ self.dateLabel.text = [FatModel ymdDateString];
+ self.gapLabel.text = [FatModel gapString];
 ```
 
