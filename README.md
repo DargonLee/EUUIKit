@@ -132,5 +132,23 @@ FatModel:
 Controller:
  self.dateLabel.text = [FatModel ymdDateString];
  self.gapLabel.text = [FatModel gapString];
+ 
+ 
+ Raw Data:
+{
+ "name":"casa",
+ "sex":"male",
+}
+SlimModel:
+ @property (nonatomic, strong) NSString *name;
+ @property (nonatomic, strong) NSString *sex;
+Helper:
+ #define Male 1;
+ #define Female 0;
+ + (BOOL)sexWithString:(NSString *)sex;
+Controller:
+ if ([Helper sexWithString:SlimModel.sex] == Male) {
+ ...
+ }
 ```
 
