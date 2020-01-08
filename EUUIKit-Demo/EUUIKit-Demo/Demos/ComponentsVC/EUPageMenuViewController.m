@@ -19,7 +19,6 @@
 #define kScreenW [UIScreen mainScreen].bounds.size.width
 #define kScreenH [UIScreen mainScreen].bounds.size.height
 
-
 @interface EUPageMenuViewController ()<SPPageMenuDelegate,UIScrollViewDelegate>
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) MyHeaderView *headerView;
