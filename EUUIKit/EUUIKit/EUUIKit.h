@@ -83,6 +83,14 @@ FOUNDATION_EXPORT const unsigned char EUUIKitVersionString[];
 #import <EUUIKit/Masonry.h>
 #endif
 
+#if __has_include("MJRefresh.h")
+#import <EUUIKit/MJRefresh.h>
+#endif
+
+#if __has_include("SPPageMenu.h")
+#import <EUUIKit/SPPageMenu.h>
+#endif
+
 #import <EUUIKit/EUUICore.h>
 #import <EUUIKit/EUTextField.h>
 #import <EUUIKit/EUTextFieldView.h>
@@ -115,5 +123,6 @@ FOUNDATION_EXPORT const unsigned char EUUIKitVersionString[];
 #import <EUUIKit/EULockView.h>
 #import <EUUIKit/EUTimer.h>
 #import <EUUIKit/EUProxy.h>
+
 
 

@@ -70,6 +70,10 @@ static NSString *cellIdentifier = @"comcellIdentifier";
                                                             subTitle:@"手势解锁View"
                                                       viewController:@"EUGesLockViewController"]];
     
+    [self.dataSource addObject:[[EUBaseUIKitItem alloc]initWithTitle:@"EULockView"
+          subTitle:@"PageMenu子控制器"
+    viewController:@"EUPageMenuViewController"]];
+    
     
     
 }
