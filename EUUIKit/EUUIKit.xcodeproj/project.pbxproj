@@ -162,6 +162,8 @@
 		18EF79E0229E5CA500E92E1E /* EUScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF79DE229E5CA500E92E1E /* EUScanQRCodeViewController.m */; };
 		18EF79E3229E60D700E92E1E /* QRCodeScanTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EF79E1229E60D700E92E1E /* QRCodeScanTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EF79E4229E60D700E92E1E /* QRCodeScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EF79E2229E60D700E92E1E /* QRCodeScanTool.m */; };
+		DCA8D9802434DE4C009EE89E /* EUNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8D97E2434DE4C009EE89E /* EUNetwork.m */; };
+		DCA8D9812434DE4C009EE89E /* EUNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA8D97F2434DE4C009EE89E /* EUNetwork.h */; };
 		DCBB5A3B236DB136004BF228 /* SSNetworkInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A38236DB135004BF228 /* SSNetworkInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCBB5A3C236DB136004BF228 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBB5A39236DB135004BF228 /* route.h */; };
 		DCBB5A3D236DB136004BF228 /* SSNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBB5A3A236DB136004BF228 /* SSNetworkInfo.m */; };
@@ -414,6 +416,8 @@
 		18EF79DE229E5CA500E92E1E /* EUScanQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUScanQRCodeViewController.m; sourceTree = "<group>"; };
 		18EF79E1229E60D700E92E1E /* QRCodeScanTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeScanTool.h; sourceTree = "<group>"; };
 		18EF79E2229E60D700E92E1E /* QRCodeScanTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanTool.m; sourceTree = "<group>"; };
+		DCA8D97E2434DE4C009EE89E /* EUNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUNetwork.m; sourceTree = "<group>"; };
+		DCA8D97F2434DE4C009EE89E /* EUNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUNetwork.h; sourceTree = "<group>"; };
 		DCBB5A38236DB135004BF228 /* SSNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetworkInfo.h; sourceTree = "<group>"; };
 		DCBB5A39236DB135004BF228 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		DCBB5A3A236DB136004BF228 /* SSNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNetworkInfo.m; sourceTree = "<group>"; };
@@ -674,6 +678,7 @@
 		1875394B22896AEB00204312 /* EUUIMain */ = {
 			isa = PBXGroup;
 			children = (
+				DCA8D97D2434DE36009EE89E /* Network */,
 				DCBB5A4E236ECE2C004BF228 /* QuickLookVC */,
 				DCBB5A43236ECC51004BF228 /* BaseVC */,
 				189B3E0B2292A35800B4C35F /* TabBar */,
@@ -1016,6 +1021,15 @@
 			path = QRCode;
 			sourceTree = "<group>";
 		};
+		DCA8D97D2434DE36009EE89E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DCA8D97F2434DE4C009EE89E /* EUNetwork.h */,
+				DCA8D97E2434DE4C009EE89E /* EUNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		DCBB5A3E236DB13D004BF228 /* NetworkInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1232,6 +1246,7 @@
 				1875397C22896AEB00204312 /* NSString+EUFD.h in Headers */,
 				1875397322896AEB00204312 /* EUUICore.h in Headers */,
 				1875396D22896AEB00204312 /* EUNavigationController.h in Headers */,
+				DCA8D9812434DE4C009EE89E /* EUNetwork.h in Headers */,
 				1875394022896ACF00204312 /* EUUIKit.h in Headers */,
 				1875396822896AEB00204312 /* UIView+EUUI.h in Headers */,
 				1875396922896AEB00204312 /* NSMutableParagraphStyle+EUUI.h in Headers */,
@@ -1479,6 +1494,7 @@
 				1875397B22896AEB00204312 /* NSString+EUFD.m in Sources */,
 				189D583D228C1934008E5413 /* EUNormalProgress.m in Sources */,
 				1868CE97228E816800976AE0 /* keygen.cpp in Sources */,
+				DCA8D9802434DE4C009EE89E /* EUNetwork.m in Sources */,
 				1875396E22896AEB00204312 /* EUNavigationSysController.m in Sources */,
 				DCDFFF3923C60F3C001D1A08 /* MJRefreshNormalHeader.m in Sources */,
 				1875398A228AA3C700204312 /* UIButton+EUUI.m in Sources */,
