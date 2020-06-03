@@ -47,6 +47,8 @@
 		1868CEAC228E816800976AE0 /* AESCrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1868CE90228E816800976AE0 /* AESCrypt.cpp */; };
 		186B06D52487908F0074D2CF /* CustomHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 186B06D32487908F0074D2CF /* CustomHTTPProtocol.h */; };
 		186B06D62487908F0074D2CF /* CustomHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B06D42487908F0074D2CF /* CustomHTTPProtocol.m */; };
+		186B06D92487976D0074D2CF /* NSTimer+EUFD.h in Headers */ = {isa = PBXBuildFile; fileRef = 186B06D72487976D0074D2CF /* NSTimer+EUFD.h */; };
+		186B06DA2487976D0074D2CF /* NSTimer+EUFD.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B06D82487976D0074D2CF /* NSTimer+EUFD.m */; };
 		1875394022896ACF00204312 /* EUUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1875393E22896ACF00204312 /* EUUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1875396622896AEB00204312 /* UIView+EUUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875394722896AEB00204312 /* UIView+EUUI.m */; };
 		1875396722896AEB00204312 /* NSMutableParagraphStyle+EUUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875394822896AEB00204312 /* NSMutableParagraphStyle+EUUI.m */; };
@@ -301,6 +303,8 @@
 		1868CE90228E816800976AE0 /* AESCrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AESCrypt.cpp; sourceTree = "<group>"; };
 		186B06D32487908F0074D2CF /* CustomHTTPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHTTPProtocol.h; sourceTree = "<group>"; };
 		186B06D42487908F0074D2CF /* CustomHTTPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHTTPProtocol.m; sourceTree = "<group>"; };
+		186B06D72487976D0074D2CF /* NSTimer+EUFD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EUFD.h"; sourceTree = "<group>"; };
+		186B06D82487976D0074D2CF /* NSTimer+EUFD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EUFD.m"; sourceTree = "<group>"; };
 		1875393B22896ACF00204312 /* EUUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EUUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875393E22896ACF00204312 /* EUUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUUIKit.h; sourceTree = "<group>"; };
 		1875393F22896ACF00204312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -788,6 +792,8 @@
 				18B417C4229675C400E6654D /* NSDate+EUFD.m */,
 				18B417C7229677A900E6654D /* NSDictionary+EUFD.h */,
 				18B417C8229677A900E6654D /* NSDictionary+EUFD.m */,
+				186B06D72487976D0074D2CF /* NSTimer+EUFD.h */,
+				186B06D82487976D0074D2CF /* NSTimer+EUFD.m */,
 			);
 			path = FoundationExtensions;
 			sourceTree = "<group>";
@@ -1336,6 +1342,7 @@
 				DCDFFF3423C60F3C001D1A08 /* MJRefreshAutoNormalFooter.h in Headers */,
 				DCDFFF4023C60F3C001D1A08 /* MJRefreshComponent.h in Headers */,
 				DCDFFF2923C60F3C001D1A08 /* MJRefreshConst.h in Headers */,
+				186B06D92487976D0074D2CF /* NSTimer+EUFD.h in Headers */,
 				DCDFFF2A23C60F3C001D1A08 /* UIScrollView+MJRefresh.h in Headers */,
 				DCDFFF4523C60F3C001D1A08 /* MJRefreshHeader.h in Headers */,
 				DCBB5A3B236DB136004BF228 /* SSNetworkInfo.h in Headers */,
@@ -1524,6 +1531,7 @@
 				DCDFFF2223C60F3C001D1A08 /* MJRefreshConst.m in Sources */,
 				1868CE6D228E815500976AE0 /* MBProgressHUD.m in Sources */,
 				DCBB5A9923730EC8004BF228 /* AFImageDownloader.m in Sources */,
+				186B06DA2487976D0074D2CF /* NSTimer+EUFD.m in Sources */,
 				1868CEA8228E816800976AE0 /* md5_one.c in Sources */,
 				DCDFFF3023C60F3C001D1A08 /* MJRefreshBackGifFooter.m in Sources */,
 				DCDFFED623C60E2E001D1A08 /* SPPageMenu.m in Sources */,
