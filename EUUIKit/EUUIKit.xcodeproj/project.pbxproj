@@ -45,6 +45,8 @@
 		1868CEAA228E816800976AE0 /* md5_dgst.c in Sources */ = {isa = PBXBuildFile; fileRef = 1868CE8E228E816800976AE0 /* md5_dgst.c */; };
 		1868CEAB228E816800976AE0 /* aes_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1868CE8F228E816800976AE0 /* aes_locl.h */; };
 		1868CEAC228E816800976AE0 /* AESCrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1868CE90228E816800976AE0 /* AESCrypt.cpp */; };
+		186B06D52487908F0074D2CF /* CustomHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 186B06D32487908F0074D2CF /* CustomHTTPProtocol.h */; };
+		186B06D62487908F0074D2CF /* CustomHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B06D42487908F0074D2CF /* CustomHTTPProtocol.m */; };
 		1875394022896ACF00204312 /* EUUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1875393E22896ACF00204312 /* EUUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1875396622896AEB00204312 /* UIView+EUUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875394722896AEB00204312 /* UIView+EUUI.m */; };
 		1875396722896AEB00204312 /* NSMutableParagraphStyle+EUUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875394822896AEB00204312 /* NSMutableParagraphStyle+EUUI.m */; };
@@ -297,6 +299,8 @@
 		1868CE8E228E816800976AE0 /* md5_dgst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5_dgst.c; sourceTree = "<group>"; };
 		1868CE8F228E816800976AE0 /* aes_locl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_locl.h; sourceTree = "<group>"; };
 		1868CE90228E816800976AE0 /* AESCrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AESCrypt.cpp; sourceTree = "<group>"; };
+		186B06D32487908F0074D2CF /* CustomHTTPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHTTPProtocol.h; sourceTree = "<group>"; };
+		186B06D42487908F0074D2CF /* CustomHTTPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHTTPProtocol.m; sourceTree = "<group>"; };
 		1875393B22896ACF00204312 /* EUUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EUUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875393E22896ACF00204312 /* EUUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUUIKit.h; sourceTree = "<group>"; };
 		1875393F22896ACF00204312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -622,6 +626,15 @@
 			path = openssl;
 			sourceTree = "<group>";
 		};
+		186B06D22487904F0074D2CF /* NetworkProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				186B06D32487908F0074D2CF /* CustomHTTPProtocol.h */,
+				186B06D42487908F0074D2CF /* CustomHTTPProtocol.m */,
+			);
+			path = NetworkProtocol;
+			sourceTree = "<group>";
+		};
 		1875393122896ACF00204312 = {
 			isa = PBXGroup;
 			children = (
@@ -845,6 +858,7 @@
 				189B3E122292A80000B4C35F /* AESTool.m */,
 				189B3E3922954A1900B4C35F /* Base64Tool.h */,
 				189B3E3A22954A1900B4C35F /* Base64Tool.m */,
+				186B06D22487904F0074D2CF /* NetworkProtocol */,
 				DCBB5A3E236DB13D004BF228 /* NetworkInfo */,
 				18EF79D3229D07E000E92E1E /* QRCode */,
 				189B3E3D22954D0200B4C35F /* FileManger */,
@@ -1298,6 +1312,7 @@
 				DCBB5A9B23730EC8004BF228 /* AFNetworkReachabilityManager.h in Headers */,
 				DCDFFF4223C60F3C001D1A08 /* MJRefreshAutoFooter.h in Headers */,
 				DCDFFF2F23C60F3C001D1A08 /* MJRefreshBackNormalFooter.h in Headers */,
+				186B06D52487908F0074D2CF /* CustomHTTPProtocol.h in Headers */,
 				DCBB5AA023730EC8004BF228 /* AFURLResponseSerialization.h in Headers */,
 				DCBB5AA623730EC8004BF228 /* AFCompatibilityMacros.h in Headers */,
 				DCBB5A8C23730EC8004BF228 /* AFAutoPurgingImageCache.h in Headers */,
@@ -1489,6 +1504,7 @@
 				1868CEAC228E816800976AE0 /* AESCrypt.cpp in Sources */,
 				DCBB5A8623730EC8004BF228 /* UIProgressView+AFNetworking.m in Sources */,
 				1868CEAA228E816800976AE0 /* md5_dgst.c in Sources */,
+				186B06D62487908F0074D2CF /* CustomHTTPProtocol.m in Sources */,
 				189B08F922A12F8B004DE72D /* ViewController+MASAdditions.m in Sources */,
 				DCBB5AB523815FA1004BF228 /* EUTimer.m in Sources */,
 				1875397B22896AEB00204312 /* NSString+EUFD.m in Sources */,
